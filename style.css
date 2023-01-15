@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+.nav-item {
+    margin-inline: 20px;
+    
+}
+.nav-item{
+    color: rgb(43, 43, 63);
+}
+.nav-item:hover {
+    color: blue;
+}
+
+
+.fw-bolder {
+    font-size: 60px;
+}
+
+.paragraph {
+    font-size: 16px;
+    opacity: 1px;
+}
+
+
+.logo {
+    width: 80px;
+    height: 60px;
+    padding: 12px ;
+}
+
+.headline {
+    font-weight: 600;
+    font-size: 55px;
+}
+
+.heading {
+    margin-left: 2px;
+    margin: 60px 20px;
+}
+
+.head1 {
+  width: 120%;
+  height: 110%;
+  margin-top: -18px;
+  margin-left: -15px;
+    
+}
+
+.head2 {
+    width: 150%;
+    height: 130%;
+    margin-top: -70px;
+    margin-left: -70px; 
+}
+
+.head3 {
+    width: 120%;
+    height: 100%;
+}
+
+.head4 {
+    width: 100%;
+    height: 100%;
+    margin-left: -50px;
+}
+.head5 {
+    width: 130%;
+    height: 50%;
+    margin-top: -60px;
+    margin-left: -100px;
+}
+
+.head6 {
+    width: 110%;
+    height: 100%;
+    margin-left: -10px;
+}
+
+.shadow {
+    background-color: rgb(255, 255, 255);
+    margin-top: 5rem;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: rgb(51 51 51 / 10%) 0px 4px 32px;
+    
+}
+
+
+.features {
+    margin-left: 50px;
+    
+}
+
+
+.value1 {
+    margin-left: 50px;
+}
+
+.value {
+    font-size: 40px;
+}
+
+
+.step1 {
+    font-size: 40px;
+}
+
+.step {
+    margin: 100px 0px;
+}
+
+.simple {
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+.lando {
+    margin: 150px 70px;
+}
+
+.decoration {
+    text-decoration: none;
+    color: #000;
+}
+
+.Testimonial {
+    margin-top: 100px;
+}
+
+.assets {
+    margin-top: 40px;
+}
+
+.star {
+    width: 6%;
+    height: 10%;
+}
+
+
+
