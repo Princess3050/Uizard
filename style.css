@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+/*nav start*/
 .nav-item {
     margin-inline: 20px;
     
@@ -11,16 +12,19 @@
 .nav-item:hover {
     color: blue;
 }
+/*nav end*/
 
 
+/*section1 start*/
 .fw-bolder {
-    font-size: 60px;
+    font-size: 55px;
 }
 
 .paragraph {
     font-size: 16px;
     opacity: 1px;
 }
+/*section1 end*/
 
 
 .logo {
@@ -28,30 +32,34 @@
     height: 60px;
     padding: 12px ;
 }
+/*Section3 start*/
 
 .headline {
     font-weight: 600;
-    font-size: 55px;
+    font-size: 50px;
 }
 
 .heading {
     margin-left: 2px;
     margin: 60px 20px;
 }
+/*Section3 end*/
 
+
+/*images*/
 .head1 {
   width: 120%;
   height: 110%;
   margin-top: -18px;
-  margin-left: -15px;
+  margin-left: -50px;
+  
     
 }
 
 .head2 {
-    width: 150%;
-    height: 130%;
-    margin-top: -120px;
-    margin-left: -70px; 
+    width: 130%;
+    height: 140%;
+    margin-top: -110px; margin-left: -120px;
 }
 
 .head3 {
@@ -62,7 +70,7 @@
 .head4 {
     width: 100%;
     height: 100%;
-    margin-left: -50px;
+    margin-left: -0px;
 }
 .head5 {
     width: 130%;
@@ -74,8 +82,9 @@
 .head6 {
     width: 110%;
     height: 100%;
-    margin-left: -10px;
+    margin-left:-50px;
 }
+/*images end*/
 
 .shadow {
     background-color: rgb(255, 255, 255);
@@ -86,7 +95,7 @@
     
 }
 
-
+/*section4 start*/
 .features {
     margin-left: 50px;
     
@@ -101,7 +110,9 @@
     font-size: 40px;
 }
 
+/*section4 end*/
 
+/*section6 start*/
 .step1 {
     font-size: 40px;
 }
@@ -114,10 +125,11 @@
     margin-left: 50px;
     margin-top: -10px;
 }
+/*section6 end*/
 
-.lando {
+/*.lando {
     margin: 150px 70px;
-}
+}*/
 
 .decoration {
     text-decoration: none;
@@ -136,6 +148,27 @@
     width: 6%;
     height: 10%;
 }
+
+
+/*practice*/
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
 
 
 
